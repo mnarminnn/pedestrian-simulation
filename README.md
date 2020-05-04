@@ -15,4 +15,6 @@ To run the simulator, to the folder that contains the project files, and type in
 * Pressing the space par allows the simulator to time step forward.
 
 * The custom simulation option, requires the user to enter the size of a cell, rmax and length and width of the simulation domain.
+* Width/size of cell and legth/size of cell must give an integer
 * For RiMEA test 7, pressing g on the keyboard produces the speed vs. age plots as well as the residual plot. 
+

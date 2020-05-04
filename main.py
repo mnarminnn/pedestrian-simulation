@@ -52,7 +52,8 @@ def on_key(event):
         spd1 = [0]*len(solver.Ped)
         for s in range(len(solver.Ped)):
             spd1[s] = solver.Ped[s].calculateSpeed()
-
+       
+        fig1, axs=plt.subplots(2)
         fig1.suptitle('Real vs. Simulated')
         axs[0].plot(age, spd , label = "real")
         axs[0].plot(age, spd1, label = "simulated")
